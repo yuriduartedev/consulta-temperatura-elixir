@@ -1,6 +1,6 @@
 # App
 
-Description
+This application works with an external API to make the temperature query of all cities in Brazil.
 
 ## Get Started
 
