@@ -1,21 +1,12 @@
 # App
 
-**TODO: Add description**
+Description
 
-## Installation
+## Get Started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `app` to your list of dependencies in `mix.exs`:
+Make a fork in the project, open the terminal navigate to the app folder and access the iex...
 
-```elixir
-def deps do
-  [
-    {:app, "~> 0.1.0"}
-  ]
-end
+```iex -S mix
+   iex> App.SimpleWeather.start ["Rio de Janeiro"]
+   ["Rio de Janeiro: 35.2 °C"]
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/app](https://hexdocs.pm/app).
-
